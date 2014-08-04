@@ -1,0 +1,23 @@
+{
+  "name": "node-boilerplate",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "private": true,
+  "author": "happen-zhang <zhanghaipeng404@gmail.com>",
+  "description": "A learn event test.",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "debug": "0.7.4"
+  },
+  "devDependencies": {
+    "chai": "1.9.0",
+    "mocha": "1.17.1"
+  }
+}
